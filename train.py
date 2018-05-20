@@ -17,7 +17,7 @@ N_INP = 784
 N_EPOCHS = 10
 NOISE = 0.5
 
-# FashionMNIST data loading
+# MNIST data loading
 root = './data'
 if not os.path.exists(root):
     os.mkdir(root)
